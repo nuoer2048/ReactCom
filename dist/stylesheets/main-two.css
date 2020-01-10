@@ -1,0 +1,31 @@
+.input_default,
+.default {
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+}
+.input_default:focus,
+.default:focus {
+  outline: 0;
+  border-color: #40a9ff;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  border-right-width: 1px !important;
+}
+.default {
+  height: 30px;
+  width: 150px;
+}
+.small {
+  width: 100px;
+  height: 25px;
+}
+.large {
+  width: 200px;
+  height: 35px;
+}
+.clearOut {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
